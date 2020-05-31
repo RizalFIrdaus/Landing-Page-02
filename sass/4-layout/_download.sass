@@ -1,0 +1,35 @@
+#download
+    background-image: url(../img/downloadBackground.jpg)
+    background-repeat: no-repeat
+    color: white
+    background-position: center
+    padding: 70px
+    .content
+        text-align: center
+    .content h1
+        color: white
+        text-transform: uppercase
+        margin: 20px 0 
+    .content p
+        line-height: 50px
+        @media only screen and (max-width: 750px)
+            line-height: 30px
+    .button
+        position: relative
+        margin: 0 20px
+        @media only screen and (max-width: 730px)
+            margin: 20px 20px
+    .button:hover
+        color: red
+    .app:before
+        position: absolute
+        content: url('../img/appleicon.png')
+        top: 15px
+        left: 25px
+    .play:before
+        position: absolute
+        content: url('../img/playicon.png')
+        top: 17px
+        left: 25px
+    @media only screen and (max-width: 750px)
+        margin-top: 75px
